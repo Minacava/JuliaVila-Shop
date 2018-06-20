@@ -16,9 +16,7 @@ font-family: "Source Sans Pro",HelveticaNeue-Light,"Helvetica Neue Light","Helve
 /*--------------------------------------------------------------
 CSS Reset
 --------------------------------------------------------------*/
-* {
-    box-sizing: border-box;
-}
+
 body {
   
     font-family: "Source Sans Pro",HelveticaNeue-Light,"Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;  
@@ -58,6 +56,7 @@ Header styles
     font-size: 12px;
 }
 
+
 .navbar-light .navbar-toggler {
     border-color:  #FFFFFF!important; 
 }
@@ -75,9 +74,14 @@ Header styles
     font-family: 'Shadows Into Light', cursive;
     font-size: 2em;
 }
+
 /*--------------------------------------------------------------
 Main styles
 --------------------------------------------------------------*/
+
+.slider-container{
+    margin-right:5px;
+}
 .carousel-inner{
     height: 60vh;
    
@@ -99,3 +103,4 @@ Footer styles
  /*--------------------------------------------------------------
 Responsive
 --------------------------------------------------------------*/
+
