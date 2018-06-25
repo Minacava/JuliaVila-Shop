@@ -10,7 +10,9 @@ Primaris
 #FAEAC1 VAINILLA Light
 #F8DF9F VAINILLA 
 
-font-family: "Source Sans Pro",HelveticaNeue-Light,"Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+font-family: 'Great Vibes', cursive;
+font-family: 'Source Sans Pro', sans-serif;
+font-family: 'Karla', sans-serif;
 */
 
 /*--------------------------------------------------------------
@@ -18,36 +20,31 @@ CSS Reset
 --------------------------------------------------------------*/
 
 body {
-  
-    font-family: "Source Sans Pro",HelveticaNeue-Light,"Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;  
+    font-family: 'Source Sans Pro', sans-serif;
 }
 html{
     font-size: 12px;	
-  
 }
 h1{
     color:#F8DF9F;
 }
 .collapse li{
-    text-transform: uppercase;
     font-size: 1.8rem;
 }
 h5{
     font-family: 'Karla', sans-serif;
     font-size: 12px; 
 }
+h6 h3{
+    font-family: 'Karla', sans-serif;
+     color: #929292;
+}
 
 
 /*--------------------------------------------------------------
 Header styles
 --------------------------------------------------------------*/
-.far,.fab,.fas{
-    margin-right: 0.5%;
-    color: rgb(4, 18, 19);
-}
-.fixed-top{
-    top:20px !important;
-}
+
 .nav-link{
     font-size: 15px; 
 }
@@ -55,14 +52,12 @@ Header styles
     font-family: 'Karla', sans-serif;
     font-size: 12px;
 }
-
-
 .navbar-light .navbar-toggler {
     border-color:  #FFFFFF!important; 
 }
-
 .logo{
     width: 20%;
+    margin-top:1%;
 }
 #skyLine_illustration{
    width: 100%;
@@ -70,9 +65,8 @@ Header styles
    top:0;
    justify-content: center;
 }
-.quote{
-    font-family: 'Shadows Into Light', cursive;
-    font-size: 2em;
+a:hover{
+    border-bottom: 1px #F8DF9F solid;
 }
 
 /*--------------------------------------------------------------
@@ -84,20 +78,14 @@ Main styles
 }
 .carousel-inner{
     height: 60vh;
-   
 }
-.card-image-collection{
-    width: 250px;
-    height: 250px;
-    margin:0;
- 
-}
+
 /*--------------------------------------------------------------
 Footer styles
 --------------------------------------------------------------*/
 
 .footer-quote{
-    font-family: 'Shadows Into Light', cursive;
+    font-family: 'Great Vibes', cursive;
 }
 
  /*--------------------------------------------------------------
