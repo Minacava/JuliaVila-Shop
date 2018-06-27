@@ -79,6 +79,18 @@ Main styles
 .carousel-inner{
     height: 60vh;
 }
+.div-collection0{
+    height: 200px;
+    background-color: #6BD7D9;
+}
+.div-collection1{
+    height: 200px;
+    background-color: #EFEAB0;
+}
+.div-collection2{
+    height: 200px;
+    background-color: #FDAAB6;
+}
 
 /*--------------------------------------------------------------
 Footer styles
