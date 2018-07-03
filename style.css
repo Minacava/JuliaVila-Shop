@@ -12,17 +12,21 @@ Primaris
 
 font-family: 'Great Vibes', cursive;
 font-family: 'Source Sans Pro', sans-serif;
-font-family: 'Karla', sans-serif;
+
 */
 /*--------------------------------------------------------------
 CSS Reset
 --------------------------------------------------------------*/
 *{
     color: #929292;
-    font-family: 'Karla', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;   
+}
+@font-face {
+    font-family:'Abadi MT Condensed Light';
+    src: url(‘/fonts/abadi/ABALC.TTF’);
+   
 }
 body {
-    font-family: 'Source Sans Pro', sans-serif;
     margin: 1%;
 }
 html{
@@ -33,11 +37,15 @@ h1{
 }
 
 h5{
-    font-family: 'Karla', sans-serif;
+    
     font-size: 12px; 
 }
-h6 h3{
-    font-family: 'Karla', sans-serif;
+ul{
+    padding: 0;
+}
+/* Icons */
+.fab{
+    color:#F1CAAE;
 }
 
 /*--------------------------------------------------------------
@@ -46,10 +54,12 @@ Header styles
 
 .nav-link{
     font-size: 15px; 
+    border-bottom: 3px solid transparent;
 }
 .nav-item{
-    font-family: 'Karla', sans-serif;
-    font-size: 12px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: lighter;
+    font-size: 20px;
 }
 .navbar-light .navbar-toggler {
     border-color:  #FFFFFF!important; 
@@ -66,10 +76,15 @@ Header styles
 }
 .nav-link{
     color:#747474;
+    letter-spacing: 0.2em;
 }
 .nav-link:hover{
     border-bottom: 1px #F8DF9F solid;
 }
+.nav-link:active{
+    border-bottom: 1px #F8DF9F solid;
+}
+
 /*--------------------------------------------------------------
 Main styles
 --------------------------------------------------------------*/
@@ -78,18 +93,18 @@ Main styles
     margin-bottom: 2%;
 }
 .div-collection0{
-    height: 200px;
+    height: 250px;
     background-color: #6BD7D9;
     border: 5px solid white;
     
 }
 .div-collection1{
-    height: 200px;
+    height: 250px;
     background-color: #EFEAB0;
     border: 5px solid white;
 }
 .div-collection2{
-    height: 200px;
+    height: 250px;
     background-color: #FDAAB6;
     border: 5px solid white;
 }
@@ -115,26 +130,54 @@ h2 span {
     /* to hide the lines from behind the text, you have to set the background color the same as the container */ 
     background: #fff; 
     padding: 0 15px; 
-    font-size: 12px;
-    color:#929292
+    font-size: 0.6em;
+    color:#929292;
+    font-weight: lighter;
+    letter-spacing: 0.2em
 }
 /* End Divider */
 /* Colllection */
+.collection_title{
+    font-family:'Abadi MT Condensed Light';
+    font-size: 1.90em;
+    color: #929292;
+    margin-top:3%;
+    letter-spacing: 0.2em;
+    
+}
 .card-title{
     color: white;
-    margin: 5px 5px 0 5px;
+    margin: 7px 7px 0 7px;
+    font-family:'Abadi MT Condensed Light';
+    font-size: 1.75em;
+    letter-spacing: 0.1em;
 }
-.collection_title{
-    border-bottom: 1px solid 	#DCDCDC;
 
-
-}
 /*--------------------------------------------------------------
 Footer styles
 --------------------------------------------------------------*/
-
-.footer-quote{
-    font-family: 'Great Vibes', cursive;
+ul{
+    list-style:none;
+}
+.footer-link{
+    font-family: 'Source Sans Pro', sans-serif;
+    color:#929292;
+    font-size:1.1666666666666667em;
+    font-weight: lighter;
+}
+.footer-title{
+  color:#D72A7F;
+  font-size: 1.6666666666666667em;
+  font-weight: bold;
+}
+.footer-copyright{
+    font-family: 'Source Sans Pro', sans-serif;
+    color:#929292;
+    font-size:1.1666666666666667em;
+    font-weight: lighter;
+}
+.heart-link{
+    color:#D72A7F;
 }
 
  /*--------------------------------------------------------------
