@@ -37,9 +37,8 @@ h1{
 }
 
 h5{
-    
     font-size: 12px; 
-}ƒ
+}
 ul{
     padding: 0;
 }
@@ -47,7 +46,13 @@ ul{
 .fab{
     color:#F1CAAE;
 }
-
+hr{
+   margin-top:0!important;
+   border-top: 1px solid rgba(0, 0, 0, 0.04)!important;
+}
+ul{
+    list-style:none;
+}
 /*--------------------------------------------------------------
 Header styles
 --------------------------------------------------------------*/
@@ -55,7 +60,9 @@ Header styles
 .nav-link{
     font-size: 15px; 
     border-bottom: 3px solid transparent;
+    font-weight: lighter;
 }
+
 .nav-item{
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: lighter;
@@ -70,19 +77,17 @@ Header styles
 }
 #skyLine_illustration{
    width: 100%;
-   height: auto;
-   top:0;
-   justify-content: center;
-   opacity: 0.3;
-   filter: alpha(opacity=50); /* For IE8 and earlier */
+   height: 5.7em;
+   
 }
+
 .nav-link{
     color:#747474;
     letter-spacing: 0.2em;
 }
 .nav-link:hover{
     border-bottom: 1px #F8DF9F solid;
-}
+}∫
 .nav-link:active{
     border-bottom: 1px #F8DF9F solid;
 }
@@ -158,9 +163,7 @@ h2 span {
 /*--------------------------------------------------------------
 Footer styles
 --------------------------------------------------------------*/
-ul{
-    list-style:none;
-}
+
 .footer-link{
     font-family: 'Source Sans Pro', sans-serif;
     color:#929292;
@@ -197,6 +200,9 @@ Responsive
     .nav-link{
         margin-right: 1em;
     } 
+   
+   
+;
 }
 
 
