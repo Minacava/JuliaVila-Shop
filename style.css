@@ -80,7 +80,12 @@ Header styles
    height: 5.7em;
    
 }
-
+#skyLine_illustration{
+    width: 100%;
+    height: 5.7em;
+    
+ }
+ 
 .nav-link{
     color:#747474;
     letter-spacing: 0.2em;
